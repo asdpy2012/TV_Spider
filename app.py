@@ -7,7 +7,7 @@ from flask_cors import CORS
 import concurrent.futures
 import json
 
-sudo pip3 install beautifulsoup4
+sudo pip3 install -r requirements.txt
 
 
 
