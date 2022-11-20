@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*-
 from urllib.parse import quote_plus
 import requests
-from bs4 import BeautifulSoup
+from bs4 import beautifulsoup4
 import re
 import base64
 from Crypto.Cipher import AES
