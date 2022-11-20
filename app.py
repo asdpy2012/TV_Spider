@@ -7,6 +7,8 @@ from flask_cors import CORS
 import concurrent.futures
 import json
 
+pip install beautifulsoup4
+
 
 
 app = Flask(__name__)
