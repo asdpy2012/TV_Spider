@@ -1,6 +1,7 @@
 # -*- coding:utf-8 -*-
 from spider import *
 from utils import douban
+from bs4 import beautifulsoup4
 from flask import Flask, abort, request, jsonify
 from flask_cors import CORS
 import concurrent.futures
