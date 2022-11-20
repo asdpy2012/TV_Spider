@@ -2,7 +2,7 @@
 import time
 from urllib.parse import quote_plus
 import requests
-from bs4 import BeautifulSoup
+from bs4 import beautifulsoup4
 import ddddocr
 import urllib3
 import re
