@@ -7,7 +7,7 @@ from flask_cors import CORS
 import concurrent.futures
 import json
 
-sudo pip install -r requirements.txt
+RUN pip install -i https://pypi.mirrors.ustc.edu.cn/simple/ -r /TV/requirements.txt \  && cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && echo 'Asia/Shanghai' >/etc/timezone
 
 
 
