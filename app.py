@@ -7,8 +7,6 @@ from flask_cors import CORS
 import concurrent.futures
 import json
 
-RUN pip install -r requirements.txt
-
 
 app = Flask(__name__)
 cors = CORS(app)
